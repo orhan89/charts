@@ -2,8 +2,28 @@ apiVersion: v1
 entries:
   rancher:
   - apiVersion: v1
+    appVersion: 52ff7df
+    created: "2022-10-26T19:44:09.839554681+07:00"
+    description: Install Rancher Server to manage Kubernetes clusters across providers.
+    digest: 2bb9e17f3f7645a3bc5b945143f77316dcc0db2d6a87d19b228d852b244c00f5
+    home: https://rancher.com
+    icon: https://github.com/rancher/ui/blob/master/public/assets/images/logos/welcome-cow.svg
+    keywords:
+    - rancher
+    kubeVersion: < 1.25.0-0
+    maintainers:
+    - email: charts@rancher.com
+      name: Rancher Labs
+    name: rancher
+    sources:
+    - https://github.com/rancher/rancher
+    - https://github.com/rancher/server-chart
+    urls:
+    - https://orhan89.github.io/charts/rancher/rancher-0.0.0-1666788144.commit-52ff7df.service-extraAnnotation.tgz
+    version: 0.0.0-1666788144.commit-52ff7df.service-extraAnnotation
+  - apiVersion: v1
     appVersion: ca4a0ec
-    created: "2022-10-26T11:17:34.552148314+07:00"
+    created: "2022-10-26T19:44:09.83591647+07:00"
     description: Install Rancher Server to manage Kubernetes clusters across providers.
     digest: 5838134f9a03e61703263728333071c1535d702e3f73156eabd28c65cb5d0399
     home: https://rancher.com
@@ -23,7 +43,7 @@ entries:
     version: 0.0.0-1666757761.commit-ca4a0ec.service-extraAnnotation
   - apiVersion: v1
     appVersion: "4476416"
-    created: "2022-10-26T11:17:34.550978212+07:00"
+    created: "2022-10-26T19:44:09.833247639+07:00"
     description: Install Rancher Server to manage Kubernetes clusters across providers.
     digest: a05419c226eb1c8575b8e52bb459d64aaae23e68dee1d143bd1c3e723d134eb3
     home: https://rancher.com
@@ -41,4 +61,4 @@ entries:
     urls:
     - https://orhan89.github.io/charts/rancher/rancher-0.0.0-1666694496.commit-4476416.service-extraAnnotation.tgz
     version: 0.0.0-1666694496.commit-4476416.service-extraAnnotation
-generated: "2022-10-26T11:17:34.549681926+07:00"
+generated: "2022-10-26T19:44:09.826208332+07:00"
